@@ -8,6 +8,6 @@ There are two conventional solutions to using the non-native spark function in a
 
 The most crucial problem individuals face using UDF is that performance in these solutions is significantly slower than native spark functions. Sometimes UDFs may be 10x slower than native ones depending on the task.
 
-To deal with this problem, I implemented the simple code to convert Gregorian to Solar date adopting native functions available on my Github.
+To deal with this problem, I implemented the simple code to convert Gregorian to Solar date adopting native functions
 
 For this purpose, I used the well-explained document available at https://jostrans.org/issue17/art_darani.php.
