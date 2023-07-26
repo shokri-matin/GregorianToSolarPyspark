@@ -13,8 +13,8 @@ def is_leap_year(df: dataframe, year_column_name: str) -> dataframe:
 def covert_gregorian_to_solar(df: dataframe, date_column: str):
 
     """
-    This function create new columns named: "ShamsiYear", "ShamsiMonth", "ShamsiDay".
-    date column must be timestamp type.
+    This function creates new columns named: "ShamsiYear," "ShamsiMonth," "ShamsiDay."
+    Date column must be timestamp type.
     The method which is used for creating steps described at "https://jostrans.org/issue17/art_darani.php"
     """
 
